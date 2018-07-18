@@ -63,7 +63,7 @@ public class StepTemplate extends StepConfiguration {
         }
 
         @Override
-        public Object getValueAt(long row, int col) throws Exception {
+        public Object getValueAt(long row, int col) {
             // will not be called since we have no custom columns
             return null;
         }
